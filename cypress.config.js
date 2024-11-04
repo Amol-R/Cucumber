@@ -22,5 +22,6 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   e2e: {
     setupNodeEvents,
+    specPattern: "**/*.feature",
   },
 });
